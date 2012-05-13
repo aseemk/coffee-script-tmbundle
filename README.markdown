@@ -1,4 +1,4 @@
-CoffeeScript.tmbundle
+CoffeeScript.tmbundle (w/ line numbers)
 ---------------------
 
 A **TextMate Bundle** for the **CoffeeScript** programming language.
@@ -7,9 +7,18 @@ Installation:
 
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript.tmbundle
+    git clone git://github.com/aseemk/coffee-script-tmbundle CoffeeScript.tmbundle
 
 The bundle includes syntax highlighting, the ability to compile or evaluate CoffeeScript inline, convenient symbol listing for functions, and a number of expando snippets.
+
+<i><b>This fork adds line numbers to the "Compile and Display JS" output
+(cmd+B).</b> This change was [submitted upstream][pull-46] and was initially
+[accepted][upstream-25cb53f], but was later [reverted][upstream-49a55aa]
+due to differing primary use cases.</i>
+
+[pull-46]: https://github.com/jashkenas/coffee-script-tmbundle/pull/46
+[upstream-25cb53f]: https://github.com/jashkenas/coffee-script-tmbundle/commit/25cb53f62ddfe7cdc0cecb39c9a58dec62790de2
+[upstream-49a55aa]: https://github.com/jashkenas/coffee-script-tmbundle/commit/49a55aac5d2d5fd857c78b5b6850c3a4c3f8f9d3
 
 Patches for additions are always welcome.
 
